@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura</title>
+    <style>
+        body{
+            background-color: rgba(127, 255, 212, 0.384);
+            margin: 0;
+        }
+        h1{
+            font-size: 2.5em;
+            padding-top: 10px;
+            margin-left: 10px;
+            margin-top: 30px;
+            color: rgb(235, 27, 27);
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        header{
+            background-color:  rgba(255, 196, 0, 0.979);
+            margin: 10px 10px;
+        }
+        nav{
+            background-color: rgba(11, 11, 196, 0.993);
+        }
+        
+        article{
+            margin: 20px;
+
+        }
+        .destaque h2{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: darkred;
+            font-size: 2.5em;
+        }
+        .destaque p{
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(10, 10, 0);
+            margin-top: 70px;
+        }
+        .destaque img{
+            height: 500px;
+            width: 700px;
+            margin-left: 300px;
+            margin-top: 20px;
+               
+        }
+        .destaque h2{
+            text-align: center;
+        }
+        .menu{
+            height: 30px;
+            padding: 5px;
+            margin-top: 20px;
+        }
+        .menu a{
+            text-decoration: none;
+            color: beige;
+            font-size: 17px;
+
+            
+        }
+        .menu a:hover{
+            text-decoration: underline;
+            color: rgb(71, 206, 240);
+            font-weight: bold;
+            text-transform: capitalize;
+        }
+        h1:hover{
+            color: darkred;
+        }
+        h1::before{
+            content: "✪";
+        }
+        .menu ul{
+             margin-top: 5px;
+             text-align: center;
+        }
+        .menu li{
+            display: inline;
+            padding: 20px;
+            text-align: center;
+        }
+        aside{
+            background-color: rgba(0, 0, 0, 0);
+        }
+        aside{
+            margin: 20px;
+        }
+        .destaque .img2{
+            height: 700px;
+            width: 450px;
+            margin-left: 450px;
+        }
+        footer{
+            background-color: rgb(4, 4, 117);
+            margin: 0;
+            padding: 2px;
+            height: max-content;
+            height: 30px;
+        }
+        footer > p{
+            color: beige;
+            margin-top: 8px;
+            text-align: center;
+
+
+        }
+
+        footer > p::before{
+            content: "©";
+            padding-right: 5px;
+        }
+        footer > p:hover{
+            color: rgb(71, 206, 240);
+        }
+
+           
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1> Cozinha da Clara</h1>
+        <nav class="menu"> 
+            <ul type="none">
+                <li><a href="#">home</a></li>
+                <li><a href="#">quem somos</a></li>
+                <li><a href="#">trabalhos</a></li>
+                <li><a href="#">projetos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article class=" destaque">
+                <h2>Como escolher os melhores ingredientes</h2>
+                <img src="../ex022/img/f1.jpg" alt="ingredientes">
+                <p>Indiscutivelmente, a boa qualidade dos alimentos depende dos ingredientes, que deverão ser os melhores possíveis. Além disso, as preocupações com a higiene, os cuidados durante a manipulação e a execução correta das técnicas de elaboração são os fatores que levam à obtenção de um produto de boa qualidade. A farinha, por exemplo, exerce uma grande influência na qualidade dos produtos elaborados. “Para esses casos, recomenda-se que ela seja uma farinha forte (especial) para possibilitar o desenvolvimento adequado da cadeia de glúten, que é indispensável na obtenção de produtos”, afirma Marina Queiroz, professora do Curso a Distância CPT Básico de Confeitaria, em Livro+DVD e Curso Online.
+
+                    Para a confeitaria, é desejável utilizar uma farinha fraca e de boa qualidade, uma vez que não será preciso obter massas muito estruturadas como acontece na panificação. Sendo assim, a farinha ideal para a confeitaria é aquela que possui em torno de 7,5% de proteínas, que são capazes de proporcionar a obtenção de produtos leves, macios e soltos. Já o fermento utilizado em confeitaria, na grande maioria dos casos, utiliza-se o químico, ao invés do biológico, porque as massas para produtos confeitados quase sempre não precisam ser fermentadas. Esse ingrediente, apesar de ser chamado de fermento, não possui microrganismos e, por isso, não fermenta a massa; mas, possibilita o crescimento da mesma. Isso acontece porque, durante o assamento, o fermento químico libera gás carbônico que ficará retido no interior da massa, causando a sua expansão (crescimento).</p>
+            </article>
+            <article  class=" destaque">
+                <h2>Desafios da profissão</h2>
+                <img src="../ex022/img/f2.jpeg" alt="pessoa cozinhando" class="img2">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa eos, nemo ex praesentium, consectetur debitis iste excepturi sapiente cupiditate placeat necessitatibus. Quia fuga soluta reprehenderit quod quibusdam omnis commodi quae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa sequi nam deleniti repellat ratione. Inventore, at natus vero laborum recusandae quod commodi incidunt dolorem aperiam perferendis blanditiis facilis reiciendis sint?</p>
+                <aside>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores neque ducimus cum numquam totam rem voluptatum minus odit, a suscipit dicta illum soluta cupiditate possimus nulla cumque omnis laudantium ipsam?
+                Tempora saepe ut quaerat. Ratione laborum recusandae et laboriosam iure cumque doloremque debitis expedita quos cupiditate, omnis porro dolor qui, quasi at veniam perspiciatis nostrum eos commodi sunt vitae vero.
+                Blanditiis veniam a libero harum cumque voluptates. Itaque laboriosam vitae velit quo perspiciatis, voluptates dignissimos exercitationem nisi tempora deleniti expedita aperiam iste illum totam soluta neque ex aliquid amet quibusdam?/aside>
+            </article>
+        </section>
+        <aside>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores neque ducimus cum numquam totam rem voluptatum minus odit, a suscipit dicta illum soluta cupiditate possimus nulla cumque omnis laudantium ipsam?
+                Tempora saepe ut quaerat. Ratione laborum recusandae et laboriosam iure cumque doloremque debitis expedita quos cupiditate, omnis porro dolor qui, quasi at veniam perspiciatis nostrum eos commodi sunt vitae vero.
+                Blanditiis veniam a libero harum cumque voluptates. Itaque laboriosam vitae velit quo perspiciatis, voluptates dignissimos exercitationem nisi tempora deleniti expedita aperiam iste illum totam soluta neque ex aliquid amet quibusdam?
+        </aside>
+    </main>
+    <footer>
+        <p>Todos os direitos por Clara Pereira</p>
+    </footer>
+</body>
+</html>
