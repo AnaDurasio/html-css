@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        /* Configurações Gerais */
+        input.botoes {
+            padding: 7px;
+            color: rgb(255, 255, 255);
+            background-color: rgb(190, 10, 46);
+            border: none;
+            border-radius: 6px;
+            width: 80px;
+            margin: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            /* box-shadow: 1px 2px 7px 2px rgba(0, 0, 0, 0.329); */
+        }
+        /* Configurações específicas */
+         #b1 {
+            background-color: rgb(101, 8, 163);
+         }
+         #b2:hover {
+            background-color: rgb(252, 10, 58);
+            font-weight: 600;
+         }
+         #b1:hover {
+            background-color: rgb(147, 10, 238);
+            font-weight: 600;
+         }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php" method="POST" autocomplete="on">
+        <p>
+            <label for="icor">Cor: </label>
+            <input type="color" name="cor" id="icor" value="#00FF00">
+        </p>
+
+        <p>
+            <label for="inivel">Nível de Satisfação: </label>
+            <input type="range" name="nivel" id="inivel" min="1" max="5" value="2">
+        </p>
+
+        <p>
+            <label for="ifoto">Foto do Perfil: </label>
+            <input type="file" name="foto" id="ifoto">
+        </p>
+        <p>
+            <input type="submit" value="Enviar" class="botoes" id="b1">
+            <input type="reset" value="Limpar" class="botoes" id="b2">
+        </p>
+    </form>
+</body>
+</html>
